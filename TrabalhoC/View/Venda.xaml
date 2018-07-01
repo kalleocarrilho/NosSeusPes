@@ -1,0 +1,25 @@
+﻿<Window x:Class="TrabalhoC.View.Venda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoC.View"
+        mc:Ignorable="d"
+        Title="Venda" Height="465.451" Width="494.85">
+    <Grid>
+        <Label Content="Selecione o Item:" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="110"/>
+        <ComboBox x:Name="cboItem1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="125,49,0,0"/>
+        <Button x:Name="btnAdicionar1" Content="Adicionar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="194,131,0,0" Click="Button_Click"/>
+        <Label Content="Quantidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,71,0,0" Width="91"/>
+        <TextBox x:Name="txtQuantidade1" HorizontalAlignment="Left" Height="23" Margin="125,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Preço:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,97,0,0" Width="64"/>
+        <TextBox x:Name="txtPreco1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,103,0,0"/>
+        <Label Content="Item:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,210,0,0" Width="84"/>
+        <Label Content="Quantidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="185,210,0,0" Width="84"/>
+        <Label Content="Preço:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,210,0,0" Width="84"/>
+
+
+
+
+    </Grid>
+</Window>
