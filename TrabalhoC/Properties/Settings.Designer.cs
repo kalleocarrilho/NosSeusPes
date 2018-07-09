@@ -26,8 +26,8 @@ namespace TrabalhoC.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-4AJ84RAK\\SQLEXPRESS;Initial Catalog=mssqllocaldb;Integrated Se" +
-            "curity=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-4AJ84RAK\\SQLEXPRESS;Initial Catalog=msdb;Integrated Security=T" +
+            "rue")]
         public string Configuração {
             get {
                 return ((string)(this["Configuração"]));

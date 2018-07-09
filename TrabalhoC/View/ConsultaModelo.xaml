@@ -12,15 +12,16 @@
             SelectionMode="Extended"
             CanUserReorderColumns="True"
             CanUserResizeRows="True">
-            <DataGrid.Columns>
+             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Nome}" Header="Nome do Modelo"/>
                 <DataGridTextColumn Binding="{Binding Material}" Header="Material"/>
                 <DataGridTextColumn Binding="{Binding Preco}" Header="Preço"/>
                 <DataGridTextColumn Binding="{Binding Cor}" Header="Cor"/>
             </DataGrid.Columns>
+            
 
 
-            Read more: http://www.linhadecodigo.com.br/artigo/3709/wpf-datagrid-exibindo-dados-em-tabela.aspx#ixzz5JwxbH7k1
+           
 
         </DataGrid>
 

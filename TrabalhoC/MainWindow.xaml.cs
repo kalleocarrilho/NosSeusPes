@@ -24,7 +24,6 @@ namespace TrabalhoC
         public MainWindow()
         {
             InitializeComponent();
-
             
         }
 

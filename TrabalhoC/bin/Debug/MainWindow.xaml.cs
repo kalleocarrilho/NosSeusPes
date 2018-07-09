@@ -24,7 +24,6 @@ namespace TrabalhoC
         public MainWindow()
         {
             InitializeComponent();
-
             
         }
 
@@ -37,6 +36,24 @@ namespace TrabalhoC
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             CadastrarClienteJuridico form = new CadastrarClienteJuridico();
+            form.ShowDialog();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            ConsultaModelo form = new ConsultaModelo();
+            form.ShowDialog();
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            CadastrarSapato form = new CadastrarSapato();
+            form.ShowDialog();
+        }
+
+        private void MenuItem_Click_4(object sender, RoutedEventArgs e)
+        {
+            CadastrarModelo form = new CadastrarModelo();
             form.ShowDialog();
         }
     }

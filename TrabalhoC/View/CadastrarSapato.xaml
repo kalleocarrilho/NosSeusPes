@@ -22,8 +22,9 @@
                 </ComboBox.ItemTemplate>
 
             </ComboBox>
+            
             <TextBox x:Name="txtTamanho" HorizontalAlignment="Left" Height="23" Margin="117,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
-            <TextBox x:Name="txtEtoque" HorizontalAlignment="Left" Height="23" Margin="117,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+            <TextBox x:Name="txtEstoque" HorizontalAlignment="Left" Height="23" Margin="117,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
             <Button x:Name="btnCadastrar" Content="Cadastrar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="334,338,0,0" Height="43" FontSize="20" Click="btnCadastrar_Click"/>
         </Grid>
     </Grid>

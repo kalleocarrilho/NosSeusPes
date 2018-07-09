@@ -45,8 +45,8 @@ namespace TrabalhoC.View
             {
                 Sapato sapato = new Sapato {
                     Modelo = ModeloDAO.BuscarModeloPorNome(modelo),
-                    Estoque = Int32.Parse(txtEtoque.Text),
-                    Tamanho = Int32.Parse(txtEtoque.Text)
+                    Estoque = Int32.Parse(txtEstoque.Text),
+                    Tamanho = Int32.Parse(txtEstoque.Text)
 
 
 
